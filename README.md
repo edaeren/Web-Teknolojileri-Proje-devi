@@ -1,2 +1,2 @@
-# Web-Teknolojileri-Proje-ödevi
+# Web-Teknolojileri-Proje-odevi
 Kişisel web sitesi uygulaması
