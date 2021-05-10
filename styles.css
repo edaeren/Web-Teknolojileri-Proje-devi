@@ -1,0 +1,17 @@
+.duzen{
+    background-color:#b9ff99;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 100pt;
+    text-align: center;
+   
+}
+.aa{
+    background-color: #eeffe6;
+}
+body{
+    background-image:url(foto.jfif);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
