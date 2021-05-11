@@ -1,0 +1,113 @@
+/*Anasayfa cssleri*/
+.aa {
+    background-color: #eeffe6;
+}
+
+.hakkimda {
+    /*padding-top:10px;*/
+    background-color: #f3ffe6;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    /*padding-bottom: 10px;*/
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+body {
+    background-image: url(foto.jfif);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraf{
+    text-align: left;
+    padding-left: 22%;
+}
+img {
+    width: 20%;
+    height: 20%;
+}
+
+div.fotolar {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 22%;
+    background-color: #eeffcc;
+    font-family: 'Noto Sans', sans-serif;
+  
+}
+
+div.fotolar:hover {
+    border: 1px solid #777;
+}
+
+div.fotolar img {
+    width: 100%;
+    height: 70%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*Ozgecmis cssleri*/
+.ozgecmis{
+   
+    /*margin:2%;*/
+   
+    font-size:87%;
+}
+#userjpg{
+   /* float: right;*/
+    width: 13%;
+    height: 13%; 
+   margin-top: -9%;
+   margin-left: 80%;
+}
+.ozgecmisDiv{
+    float: center;
+    width: 65%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   margin-left: 17%;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    padding: 1%;
+    overflow: hidden;
+    background-size: cover;
+}
+.kisisel{
+    position: relative;
+    top: 18px;
+}
+
+/*Sherim cssleri*/
+.resimSlider{
+    height: 500px; ;
+    width: 300px;
+}
+
+.edirne{
+   /* background-color:#f7ffe6;
+    color: black; */
+    height: 10%;
+    font-size: 100pt;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:600%;
+}
+
+.sehrim{
+    background-color:#f7ffe6;
+    color: black;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
