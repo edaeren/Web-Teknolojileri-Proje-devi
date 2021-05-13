@@ -15,132 +15,140 @@
 
 <body>
     <div>
-        <header> <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed:top">
-            <div class="container-fluid">
-                <!--a class="navbar-brand" href="#">Navbar</a-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Menü">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="Anasayfa.html">Anasayfa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Ozgecmis.html">Özgeçmiş</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Sehrim.html">Şehrim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="IlgiAlanlarim.html">ilgi Alanlarım</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Iletisim.html">İletişim</a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html"> Kayıt ol
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="register.html">Giriş Yap</a>
-                        </li>
-                    </ul>
-    
+        <header>
+            <!--NAVBAR-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed:top">
+                <div class="container-fluid">
+                    <!--a class="navbar-brand" href="#">Navbar</a-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Menü">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Anasayfa.html">Anasayfa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Ozgecmis.html">Özgeçmiş</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Sehrim.html">Şehrim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="IlgiAlanlarim.html">ilgi Alanlarım</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Iletisim.html">İletişim</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html"> Kayıt ol
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="register.html">Giriş Yap</a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-            </div>
-        </nav>
-        <!--NAVBAR BITTI-->
-    </header>
-    <!--Tüm özgeçmiş sayfasını içine alan bşr dşv oluşturdum-->
-    <div class="ozgecmisDiv">
-        <main>
-            <!--Bazı önemli bilgileri içeren bir section hazırladım-->
-            <section class="ozgecmis">  
-                <!--table yapısını kullanarak bunları yerleştirdim.-->
-                <table>
-                    <tr>
-                        <td>Ad Soyad</td>
-                        <td>:</td>
-                        <td>Eda Eren</td>
-                    </tr>
-                    <tr>
-                        <td>Adres</td>
-                        <td>:</td>
-                        <td>Küçükçekmece/İSTANBUL</td>
-                    </tr>
-                    <tr>
-                        <td>Telefon</td>
-                        <td>:</td>
-                        <td>aaaaaa</td>
-                    </tr>
-                    <tr>
-                        <td>Mail</td>
-                        <td>:</td>
-                        <td>edaeren2001@outlook.com</td>
-                    </tr>
-                </table>
-                <img id="userjpg" src="user2.jpg">
-            </section>
-            <!--ikinci bir section açarak kalan bilgileri yerleştirdim.-->
-            <section>
-                <!--ilk headerda kalan kişisel bilgilerimden bahsettim. "kisisel" isimli classta css kullanarak 
-                    bu kısmın görüntü düzenlemesini yaptım-->
-                <header class="kisisel"><b>Kişisel Bilgiler</b></header><hr>
-                <main>
+            </nav>
+            <!--NAVBAR BITTI-->
+        </header>
+        <!--Tüm özgeçmiş sayfasını içine alan bşr dşv oluşturdum-->
+        <div class="ozgecmisDiv">
+            <main>
+                <!--Bazı önemli bilgileri içeren bir section hazırladım-->
+                <section class="ozgecmis">
+                    <!--table yapısını kullanarak bunları yerleştirdim.-->
                     <table>
                         <tr>
-                            <td>Doğum Tarihi</td>
+                            <td>Ad Soyad</td>
                             <td>:</td>
-                            <td>06.10.2001</td>
+                            <td>Eda Eren</td>
                         </tr>
                         <tr>
-                            <td>Doğum Yeri</td>
+                            <td>Adres</td>
                             <td>:</td>
-                            <td>İstanbul</td>
+                            <td>Küçükçekmece/İSTANBUL</td>
+                        </tr>
+                        <tr>
+                            <td>Telefon</td>
+                            <td>:</td>
+                            <td>aaaaaa</td>
+                        </tr>
+                        <tr>
+                            <td>Mail</td>
+                            <td>:</td>
+                            <td>edaeren2001@outlook.com</td>
                         </tr>
                     </table>
-                </main>
-                <!--ikinci headerda eğitim bilgilerimden bahsettim ve kisisel sinifinin css kodlarıyla burayi da duzenledim.-->
-                <header class="kisisel"><b>Eğitim </b></header><hr>
-                <ul>
-                    <li>Sultan Murat İlk ve Ortaöğretim Okulu</li>
-                    <li>Fahreddin Kerim Gökay Anadolu Lisesi (2019 mezunu)</li>
-                    <li>Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü (1. sınıf öğrencisi)</li>
-                </ul>
-                <header class="kisisel"><b>Sertifikalar </b></header><hr>
-                <ul>
-                    <li>Sakarya Üniversitesi Genç Girişimciler Kulübü Excel Eğitim Sertifikası(24-25 Nisan 2021)</li>
-                </ul>
-                <!-- ucuncu headerda hobilerimden bahsettim ve kisisel sinifinin css kodlarıyla burayi da duzenledim-->
-                <header class="kisisel"><b>Hobiler </b></header><hr>
-                <ul>
-                    <li>Resim yapmak</li>
-                    <li>Kitap Okumak</li>
-                    <li>Dil öğrenmek</li>
-                </ul>
-            </section>
-        </main>
+                    <img id="userjpg" src="user2.jpg">
+                </section>
+                <!--ikinci bir section açarak kalan bilgileri yerleştirdim.-->
+                <section>
+                    <!--ilk headerda kalan kişisel bilgilerimden bahsettim. "kisisel" isimli classta css kullanarak 
+                    bu kısmın görüntü düzenlemesini yaptım-->
+                    <header class="kisisel"><b>Kişisel Bilgiler</b></header>
+                    <hr>
+                    <main>
+                        <table>
+                            <tr>
+                                <td>Doğum Tarihi</td>
+                                <td>:</td>
+                                <td>06.10.2001</td>
+                            </tr>
+                            <tr>
+                                <td>Doğum Yeri</td>
+                                <td>:</td>
+                                <td>İstanbul</td>
+                            </tr>
+                        </table>
+                    </main>
+                    <!--ikinci headerda eğitim bilgilerimden bahsettim ve kisisel sinifinin css kodlarıyla burayi da duzenledim.-->
+                    <header class="kisisel"><b>Eğitim </b></header>
+                    <hr>
+                    <ul>
+                        <li>Sultan Murat İlk ve Ortaöğretim Okulu</li>
+                        <li>Fahreddin Kerim Gökay Anadolu Lisesi (2019 mezunu)</li>
+                        <li>Sakarya Üniversitesi Bilgisayar Mühendisliği Bölümü (1. sınıf öğrencisi)</li>
+                    </ul>
+                    <header class="kisisel"><b>Sertifikalar </b></header>
+                    <hr>
+                    <ul>
+                        <li>Sakarya Üniversitesi Genç Girişimciler Kulübü Excel Eğitim Sertifikası(24-25 Nisan 2021)
+                        </li>
+                    </ul>
+                    <!-- ucuncu headerda hobilerimden bahsettim ve kisisel sinifinin css kodlarıyla burayi da duzenledim-->
+                    <header class="kisisel"><b>Hobiler </b></header>
+                    <hr>
+                    <ul>
+                        <li>Resim yapmak</li>
+                        <li>Kitap Okumak</li>
+                        <li>Dil öğrenmek</li>
+                    </ul>
+                </section>
+                <footer class="footer">2021
+                </footer>
+            </main>
+        </div>
+
+
+
+
     </div>
-   
 
 
-
-</div>
-    
-   
 
 
 
     <!----js bootstrap------>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

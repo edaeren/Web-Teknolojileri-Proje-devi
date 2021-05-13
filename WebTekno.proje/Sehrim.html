@@ -13,6 +13,8 @@
         integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -58,56 +60,297 @@
     </nav>
     <!--NAVBAR BITTI-->
 
-
-    <div class="sehrim">
+    <section>
         <!--EDIRNE YAZISI-->
         <div class="edirne">Edirne</div>
+    </section>
 
-        <!--Slider başlangıç-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="selimiye.jpg" class="d-block w-100 resimSlider" alt="Selimiye Camii">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                </div>
 
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <!--Slider başlangıç-->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                aria-label="Slide 7"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                aria-label="Slide 8"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8"
+                aria-label="Slide 9"></button>
+
         </div>
-        <!--Slider bitiş-->
+        <!--Resimleri ve resimlerin gideceği etiketleri yerleştirdim-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a target="_blank" href="mirasimiz.html"><img src="edirne.jpg" class="d-block w-100 resimSlider"
+                        alt="Selimiye Camii"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#alipasa"> <img src="alipasaKapalıCarsisi.jpg" class="d-block w-100 resimSlider"
+                        alt="Ali Paşa Kapalı Çarşısı"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#karaagactren"> <img src="karaagacTrenIstasyonu.jpg" class="d-block w-100 resimSlider"
+                        alt="Karaağaç Tren İstasyonu"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#kentormani"> <img src="edirneKentOrmani.jpg" class="d-block w-100 resimSlider"
+                        alt="Edirne Kent Ormanı"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#saraclar"><img src="saraclar.jpg" class="d-block w-100 resimSlider"
+                        alt="Saraçlar Caddesi"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#karaagacCadde"><img src="karaagaccaddesi.jpg" class="d-block w-100 resimSlider"
+                        alt="Karaağaç Caddesi"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#mecidiye"><img src="mecidiyeköprüsü.jpg" class="d-block w-100 resimSlider"
+                        alt="Mecidiye Köprüsü"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#karaagactren"><img src="karaagac2.jpg" class="d-block w-100 resimSlider"
+                        alt="Karaağaç Tren İstasyonu"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="#karaagacCadde"><img src="karaagac3.jpg" class="d-block w-100 resimSlider"
+                        alt="Karaağaç Caddesi"></a>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+    <!--Slider bitiş-->
+
+    <!--Şehrin Tanıtımına Başladım-->
+    <section class="tanitim">
+        <div class="container">
+            <h2 class="baslikOrtada"></h2>
+            <p>Edirne, Türkiye'nin Edirne ilinde yer alan şehir ve aynı ilin merkez ilçesi. Marmara Bölgesi'nin Trakya
+                kesiminde, Yunanistan ve Bulgaristan sınırında yer almaktadır. 2018 sayımına göre toplam nüfusu
+                180.327'dir.</p>
+            <p>Türkiye'yi Avrupa'ya bağlayan karayolu üzerinde yer alan sınır şehridir. Edirne, Tunca, Arda ve Meriç
+                ırmaklarının buluştuğu düzlükte kurulmuştur. Karasal iklim hakimdir. Yunanistan ve Bulgaristan'ın
+                yanında kuruludur. Şehir merkezi Yunanistan'a 7 km, Bulgaristan'a 17 km uzaklığındadır.<br> <br>
+                Edirne, kültürel ve tarihi zenginliklerinin yanından zengin bir mutfağa da sahip. Bir yiyenin bir daha
+                yemek istediği Edirne tava ciğeri ise şehrin en meşhur lezzetlerinden biri. Tava ciğerinin yanında badem
+                ezmesi, elbasan tava, mutancana, kadınbudu köfte gibi lezzetleri de mutlaka denemelisiniz.</p>
+            <h2>Gezilecek Yerler</h2>
+            <hr>
+            <ul>
+                <li>
+                    <a name="alipasa">
+                        <h4>Ali Paşa Çarşısı</h4>
+                    </a>
+                </li>
+                <p>&nbsp &nbsp Ali Paşa Çarşısı, Edirne’nin merkezinde bulunan Kapalı Çarşı Saraçlar Caddesi üzerinde
+                    bulunur.Çarşıda çeşitli noktalardan giriş ve çıkışlar için 6 adet kapı bulunmaktadır. Çarşı
+                    içerisine girdiğiniz anda tarihi doku sizi karşılıyor. Yaklaşık 130 dükkanın bulunduğu çarşı
+                    içerisinde her türden ürün bulmanız mümkün.Yazın en sıcak günlerinde bile içerisinin serin olması
+                    ziyaretçilerine rahat bir nefes aldırıyor.<br>
+
+                    &nbsp &nbsp Edirne’ye özgü süs ve hatıra eşyaları, müzik enstürmanları, petshop, altın, giyim,
+                    çanta, altın ve
+                    gümüş kuyumcu, yiyecek, tatlı, takı, ayakkabı gibi bir çok alanda hizmet veren dükkanlar
+                    mevcuttur.<br>
+
+                    &nbsp &nbsp Eğer Edirne’ye ziyarete geldiyseniz mutlaka hediyelik eşya satan dükkanlara
+                    gitmelisiniz. Burada
+                    sevdikleriniz ve eviniz için anlamlı hediyeler alabilir, Edirne Hatırası simgesel ürünlere
+                    gözatabilirsiniz. Ayrıca deri ürün satan dükkanlarda uygun fiyatlı ürünler bulabilirsiniz.Edirne’ye
+                    özgü lezzetleri tatmanız için lokantalarda mevcut.</p>
+                <li>
+                    <a name="karaagactren">
+                        <h4>Karaağaç Tren İstasyonu</h4>
+                    </a>
+
+                </li>
+                <p> &nbsp &nbsp Karaağaç Tren İstasyonu, Edirne'nin Karaağaç kasabasında bulunan ve II. Abdülhamid
+                    devrinde
+                    yaptırılan tren istasyon binasıdır. Edirne Tren Garı olarak inşa edilmiş olan bina günümüzde Trakya
+                    Üniversitesi Rektörlük Binası olarak kullanılır.<br>
+
+                    &nbsp &nbsp İstanbul'daki Sirkeci Garı örnek olarak yapılmış gar binalarından birisidir. Şark
+                    Demiryolları
+                    Şirketi adına Mimar Kemaleddin tarafından neoklasik üslupta inşa edildi. Üç katlı, dikdörtgen planlı
+                    ve 80 m uzunluğunda bir yapıdır. İstanbul'u Avrupa'ya bağlayan demiryolunun en önemli
+                    istasyonlarından birisiydi<br>
+
+                    &nbsp &nbsp İnşaatı 1914 yılında genel olarak bitirilmişti ancak o yıl başlayan I. Dünya Savaşı
+                    nedeniyle
+                    demiryolu güzergâhı değiştiği için hizmete giremedi. Savaş sonunda Osmanlı Devleti sınırları dışında
+                    kaldı.<br>
+
+                    &nbsp &nbsp 24 Temmuz 1923 tarihinde imzalanan Lozan Antlaşması'nda Karaağaç, Bosnaköy ile birlikte
+                    Yunanistan'ın Batı Anadolu'da yaptığı tahribata karşılık, savaş tazminatı olarak Türkiye'ye verildi.
+                    Böylece yeniden Türk sınırlarına giren Karaağaç İstasyonu, 14 Eylül 1923 günü Yunanlardan teslim
+                    alındı ve 1930'da işletmeye açıldı.<br>
+
+                    &nbsp &nbsp Ne var ki Rumeli demiryollarının büyük bölümü ülke sınırlarının dışında kalmıştı ve
+                    trenler
+                    İstanbul'dan Edirne'ye ulaşmak için Yunanistan'a girmek zorunda kalıyordu; bu yüzden yeni bir
+                    demiryolu hattı inşası başlatıldı. Ağustos 1971'de, Pehlivanköy-Edirne arasındaki yeni demiryolu
+                    hattının açılması ve kent içinde yeni gar binasının hizmete girmesinden sonra Karaağaç istasyon
+                    binasının önündeki raylar söküldü.<br>
+
+                    &nbsp &nbsp Türk-Yunan sınırının çok yakınında bulunan bina, 1974 yılı Kıbrıs olayları sırasında bir
+                    ileri
+                    karakol görevi yaptı. 1977 yılında yeni kurulan ve bugünkü Trakya Üniversitesi’nin temelini
+                    oluşturan Edirne Mühendislik ve Mimarlık Akademisi'ne verildi.<br>
+
+                    &nbsp &nbsp Trakya Üniversitesi tarafından aslına uygun olarak restore edilen bina, 1998’den bu yana
+                    üniversiteye Rektörlük Binası olarak hizmet vermekte. Aynı yıl bahçesine Lozan Antlaşması’nı temsil
+                    eden Lozan Anıtı yapılmış, ek istasyon binalarından birisi ise Lozan Müzesi olarak hizmete
+                    açılmıştır. Bina 2017'den beri Güzel Sanatlar Fakültesi olarak kullanılıyor.<br></p>
+                <li>
+                    <a name="kentormani">
+                        <h4>Edirne Kent Ormanı</h4>
+                    </a>
+                </li>
+                <p> &nbsp &nbsp Orman içerisinde birde farklı özelliğe sahip olan ağaçlar bulunuyor. Bu ağaçların
+                    içerisinde ise
+                    armut, muşmula, meyveli karağaç gibi ağaçların olduğunu da söyleyebiliriz. Edirne Kent Ormanını
+                    ziyaret eden kişiler temiz hava güzel yeşillik alanlarını görmesinin yanı sıra aynı zamanda da hazır
+                    mangal keyfi, market hizmeti, kasap reyonu, eğlence alanları ve hazır piknik alanlarından
+                    yararlanabilecek ve gününüzü de bundan böyle Edirne Kent Ormanı sayesinde daha eğlenceli bir şekilde
+                    geçirebilme şansına sahip olacaksınız. Özellikle çocukların oynayabilecekleri pek çok eğlence
+                    oyunlarının da Edirne Kent Ormanı içerisinde bulunuyor olması büyükleri mutlu ettiği kadar küçükleri
+                    de neşelendirmeyi en iyi şekilde başarıyor.</p>
+                <li>
+                    <a name="saraclar">
+                        <h4>Saraçlar Caddesi</h4>
+                    </a>
+                </li>
+                <p>
+                    &nbsp &nbsp Tarihi Saraçlar Caddesi, Edirne ile özdeşleşmiş yaşayan bir caddedir.Bir zamanlar burada
+                    bol saraç
+                    bulunduğu için bu ismi almıştır. Edirne’nin en işlek caddesi olarak biliniyor. Yunan ve Bulgarların
+                    en
+                    çok ziyaret ettiği ve alışveriş yaptığı merkez.
+                    2008 senesinde araç trafiğine kapatılıp sadece yayalara hizmet vermesinden sonra
+                    Edirne'nin yeni kültür ve sanat merkezi olmuştur. Konserler verilir, gösteriler düzenlenir, sergiler
+                    açılır.
+                    Kıyafet mağazalarından ayakkabıcılara, kuyumculardan telefonculara, pastanelerden meşhur Edirne
+                    şekerlemeleri satanlara arayıp da bulamayacağınız hiçbir şey yoktur. Ayrıca kalacak yer arıyorsanız,
+                    caddenin üzerinde ve yakın çevresinde birbirinden güzel ve ucuz oteller de bulabilirsiniz.
+
+                    Saraçlar Caddesine haftanın en az 1 günü mutlaka uğrarım diyen Edirneli sayısı hiç de az değildir.
+                    Şehir minibüslerinde çarşı olarak da geçer. Eğer Edirne'ye yabancıysanız, herhangi birisine
+                    ''Çarşıya nasıl giderim?'' diye sorduğunuzda size Saraçlar Caddesini tarif edeceğine emin
+                    olabilirsiniz.
+                    Tarihi Alipaşa Çarşısı (Kapalı Çarşı) da Saraçlar Caddesinde yer alır. Tarihi çarşının içinde 130
+                    adet mağaza ve 6 tane de kapı vardır. Orta kapısından girerseniz (PTT'nin tam karşısı), Kapalı
+                    Çarşının arkasına geçersiniz. Burada da birbirinden güzel yiyecekler yapan ciğerciler ve köfteciler
+                    bulabilirsiniz. Saraçlar Caddesi'ne giderken Orduevinin karşısından, ışıklardan, sola aşağıya inip
+                    aracınızı park edecek bir yer bulabilirsiniz. Buralarda hem Belediye'ye ait yol kenarı otoparkları
+                    hem de özel otoparklar bulabilirsiniz. Aracınızı güvenle bırakabilirsiniz.
+
+                </p>
+                <li>
+                    <a name="karaagacCadde">
+                        <h4>Karaağaç Caddesi(Lozan Caddesi)</h4>
+                    </a>
+                    <p> &nbsp &nbsp Tarih, doğa ve kuş sesleri arasında uzanan emsalsiz bir yoldur. "Meriç Köprüsü",
+                        "Eski (Jandarma)
+                        Karakol Binası" ve "Tarihi Tren Garı" ile "Hacı Adil Bey Çeşmesi" Karaağaç'a ulaşan tarihi parke
+                        taş yolun altın parçaları gibidir.Yakın geçmişteki Karaağaç'tan köprüye kadar uzanan ek tren
+                        yolundan kalma bu güzelliklerle başlayan Karaağaç Yolu (son dönemde bilinen adıyla Lozan
+                        Caddesi) Edirne'nin en güzel mesire yerlerinden olan Söğütlük Ormanı'ndaki yeşillik ve bülbül
+                        sesleriyle sarmaş dolaş olur.Yol boyunca gördüğünüz tarihi ağaçların zamanla dinamit lokumları
+                        konulmak üzere kullanılan kovukları İkinci Dünya Savaşı'na hazırlanan Trakya'nın o dönemini
+                        çarpıcı bir şekilde vurgulamaktadır.
+                    </p>
+                </li>
+                <li>
+                    <a name="mecidiye">
+                        <h4>Mecidiye Köprüsü</h4>
+                    </a>
+                </li>
+                <p>
+                    &nbsp &nbsp Mecidiye Köprüsü veya diğer adıyla Meriç Köprüsü, 1842'de Abdülmecit zamanında yapımına
+                    başlanmış ve
+                    1847'de bitirilmiş köprüdür.Edirne-Karaağaç yolunda, Meriç Nehri üzerinde yer alır. 263 metre
+                    uzunluk, 7 metre genişlikte, 13 ayak üzerinde 12 sivri kemerli olup yanlara doğru eğimli özellikler
+                    taşımaktadır. Mermer yazıtlı tarih köşkü olan köprünün kubbesinde daha önceleri güneş motifi
+                    şeklinde demirden bir paratoner olduğu bilinmektedir.
+
+                    &nbsp &nbsp Köprünün tarih köşkünün kubbesinin içerisinde Edirne manzarası olan duvar resimleri
+                    bulunur.
+                    Köprünün her iki kısmında da gemi, kayık ve sandalların yanaşabilmesi için kesme taşlardan rıhtım
+                    yapılmıştır. Nitekim taş köprü yapılmadan önce nehir üzerinden Balkanlar'ın iç bölgelerine doğru
+                    nehir ticareti yapılmaktaydı.
+                </p>
+            </ul>
+
+        </div>
+    </section>
+    <footer class="footer2">
+        <header>Kaynakça:</header>
+        <ul>
+            <li>https://www.azbibak.com</li>
+            <li>https://tr.wikipedia.org/wiki</li>
+            <li>https://seyahatdergisi.com</li>
+            <li>http://edirneliyim.blogspot.com</li>
+            <li>https://edirnevdb.gib.gov.tr</li>
+            <li>https://tr.wikipedia.org/wikila</li>
+        </ul>
+    </footer>
 
 
     <!----js bootstrap------>
