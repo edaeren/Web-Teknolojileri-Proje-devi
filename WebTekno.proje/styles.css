@@ -1,169 +1,511 @@
 /*******************************Anasayfa cssleri************************/
 .aa {
-    background-color: #eeffe6;
+  background-color: #eeffe6;
 }
 
 .hakkimda {
-    /*padding-top:10px;*/
-    background-color: #f3ffe6;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    /*padding-bottom: 10px;*/
-    padding: 10px;
-    overflow: hidden;
+  /*padding-top:10px;*/
+  background-color: #f3ffe6;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  /*padding-bottom: 10px;*/
+  padding: 10px;
+  overflow: hidden;
 
 }
 
 body {
-    background-image: url(foto.jfif);
-    background-size: cover;
-    font-family: 'Montserrat', sans-serif;
+  background-image: url(foto.jfif);
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.paragraf{
-    text-align: left;
-    padding-left: 22%;
+.paragraf {
+  text-align: left;
+  padding-left: 22%;
 }
+
 img {
-    width: 20%;
-    height: 20%;
+  width: 20%;
+  height: 20%;
 }
 
 div.fotolar {
-    margin: 20px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 22%;
-    background-color: #eeffcc;
-    font-family: 'Noto Sans', sans-serif;
-  
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 22%;
+  background-color: #eeffcc;
+  font-family: 'Noto Sans', sans-serif;
+
 }
 
 div.fotolar:hover {
-    border: 1px solid #777;
+  border: 1px solid #777;
 }
 
 div.fotolar img {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 
 /******************Ozgecmis cssleri******************/
-.ozgecmis{
-   
-    /*margin:2%;*/
-   
-    font-size:87%;
+.ozgecmis {
+
+  /*margin:2%;*/
+
+  font-size: 87%;
 }
-#userjpg{
-   /* float: right;*/
-    width: 13%;
-    height: 13%; 
-   margin-top: -9%;
-   margin-left: 80%;
+
+#userjpg {
+  /* float: right;*/
+  width: 13%;
+  height: 13%;
+  margin-top: -9%;
+  margin-left: 80%;
 }
-.ozgecmisDiv{
-    float: center;
-    width: 65%;
-   margin-top: 2%;
-   margin-bottom: 2%;
-   margin-left: 17%;
-    background-color: white;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    padding: 1%;
-    overflow: hidden;
-    background-size: cover;
+
+.ozgecmisDiv {
+  float: center;
+  width: 65%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 17%;
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  padding: 1%;
+  overflow: hidden;
+  background-size: cover;
 }
-.kisisel{
-    position: relative;
-    top: 18px;
+
+.kisisel {
+  position: relative;
+  top: 18px;
 }
-.footer{
-    background-color: #264d73;
-    color: white;
-    margin-left: -2%;
-    margin-right: -2%;
-    text-align: right;
-    padding-right: 2%;
-    overflow: hidden;
+
+.footer {
+  background-color: #264d73;
+  color: white;
+  margin-left: -2%;
+  margin-right: -2%;
+  text-align: right;
+  padding-right: 2%;
+  overflow: hidden;
+  margin-bottom: -2%;
 }
 
 /********************************Sehrim cssleri***************************/
-.resimSlider{
-    height: 600px; 
-    padding-left:2%;
-    padding-right:2%;
+.resimSlider {
+  height: 600px;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+.edirne {
+  background-color: white;
+  color: black;
+  height: 10%;
+  font-size: 100pt;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  font-size: 600%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.tanitim {
+  float: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  color: black;
+  padding: 1%;
+  overflow: hidden;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.baslikOrtada {
+  text-align: center;
+}
+
+.footer2 {
+  background-color: #264d73;
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: left;
+  padding-right: 2%;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+
+/************MIRASIMIZ**********/
+.selimiye {
+  background-color: white;
+  color: black;
+  height: 10%;
+  font-size: 100pt;
+  text-align: center;
+  font-family: 'Arvo', serif;
+  font-family: 'Bree Serif', serif;
+  font-size: 500%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+/**ILETISIM3***/
+
+
+.baslik {
+  padding-left: 2%;
+  padding-top: 2%;
+ background-color: white;
+ width: 100%;
+ margin-top:4%;
+ /*margin-right: 2%;
+ margin-left: 2%;*/
+ padding-bottom: 3%;
+}
+
+
+.formBody{
+  margin-left: 5%;
+  margin-top: 4%;
+  background-color: #fff;
+  margin-bottom: 4%;
+  width: 90%;
+  font-family: sans-serif;
+  overflow: hidden;
+ 
+}
+.form-group{
+  background-color: white;
+  padding-left: 2%;
+}
+input{
+  padding-left: 2%;
+  
+}
+.form-control{
+  width: 40%;
+}
+.buton{
+  
+  background-color: rgb(136, 221, 80);
+  margin-left: 2%;
   
 }
 
-.edirne{
-    background-color:white;
-    color: black; 
-    height: 10%;
-    font-size: 100pt;
-    text-align: center;
-    font-family: 'Caveat', cursive;
-    font-size:600%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 2%;
-}
-
-.tanitim{
-    float: center;
+.loginDiv{
+  float: center;
+  background-color: rgba(148, 177, 96, 0.774);
  
-   margin-left: 2%;
-   margin-right: 2%;
-    background-color: white;
-    color: black;
-    padding: 1%;
-    overflow: hidden;
-    background-size: cover;
-    font-family: 'Roboto', sans-serif;
+  margin-left: 26%;
+  margin-right: 12%;
+  margin-top: 9%;
+  
+  overflow: hidden;
+  text-align: center;
+  width: 47%;
+  position: relative;
+ 
 }
-.baslikOrtada{
-    text-align: center;
-}
-.footer2{
-    background-color: #264d73;
-    color: white;
-    margin-left: 2%;
-    margin-right: 2%;
-    text-align: left;
-    padding-right: 2%;
-    overflow: hidden;
+.loginDiv2{
+ 
+  float: center;
+  background-color:rgba(255, 255, 255, 0.637);
+ /* margin-top: 2%;*/
+  margin-left: 26%;
+  margin-right: 12%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  overflow: hidden;
+  text-align: center;
+  width: 47%;
+  position: relative;
+
 }
 
-/************MİRASIMIZ**********/
-.selimiye{
-    background-color:white;
-    color: black; 
-    height: 10%;
-    font-size: 100pt;
-    text-align: center;
-    font-family: 'Arvo', serif;
-    font-family: 'Bree Serif', serif;
-    font-size:500%;
-    margin-left: 2%;
+.loginEleman{
+  border-radius: 5px;
+}
+
+
+.buton1{
+  background-color: rgba(192, 201, 146, 0.986);
+  border-radius: 5px;
+}
+
+
+
+/****ILETISIM2*****/
+
+/*
+* {
+  box-sizing: border-box;
+}
+
+.body2 {
+  background-color: #ce6a40;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 40%;
+  max-width: 10%;
+}
+
+.header {
+  border-bottom: 1% solid #f0f0f0;
+  background-color: #f7f7f7;
+  padding: 2% 4%;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.form {
+  padding: 3% 4%;
+  background-color: white;
+}
+
+.form-control {
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  /*yana gelmesini sağlar
+  margin-bottom: 3%;
+
+}
+
+
+.form-control input {
+
+  border-radius: 4%;
+  border:2px solid#f0f0f0;
+  display: block;
+  font-size: 14px;
+  padding: 1%;
+  width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #777;
+}
+
+.form-control.success input{
+  border-color: #2ecc71;
+}
+
+.form-control.error input{
+  border-color: #e73c3c;
+}
+
+.form-control i{
+  visibility: hidden;
+  position: absolute; /*sağ tarafa sıralama
+  top: 4%;
+  right: 1%;
+}
+
+.form-control.success i.fa-check-circle{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small{
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+
+.form-control.error small{
+  visibility: visible;
+}
+
+
+.form button{
+  background-color: #d16334;
+  border: 2% solid #d6774e;
+  border-radius: 4%;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 1%;
+  margin-top: 2%;
+  width: 100%;
+}*/
+
+/*******ILETISIM********
+
+.iletisimDiv {
+   
+    font-family: "Lato", sans-serif;
+    color: black;
+    margin-left: 22%;
     margin-right: 2%;
     margin-top: 2%;
-}
-/*
-.sehrim{
-    background-color:#f7ffe6;
+    margin-bottom: 2%;
+    width: 60%;
+    
+  }
+  
+  .contact-banner {
+     
+    background-image: linear-gradient(
+      to right,
+      rgb(0, 114, 66) 0%,
+      rgb(4, 109, 91) 100%
+    );
+    color: white;
+    padding: 40px;
+  }
+  
+  .invalid {
+    border: 1px solid red;
+  }
+  
+  .mb-2 {
+    margin-bottom: 20px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 40px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .contact-description {
+    margin-bottom: 40px;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    width:100%;
+    border: 1px solid rgb(0, 114, 66);
+    font-size: 8%;
+    outline: none;
+    color: #333;
+    
+  }
+  
+  .form-control {
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: green;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+  }
+  
+  label {
+    display: block;
+    font-size: 95%;
+    margin-bottom: 2%;
+    
+  }
+  
+  .hide {
+    opacity: 0;
+  }
+  
+  textarea {
+    width: 55%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    height: 60%;
+    font-size: 10%;
+  }
+  
+  button {
     color: black;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-} */
+    padding: 20px;
+    border: 1px solid rgb(0, 114, 66);
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(0, 114, 66);
+  }
+  
+  button:hover {
+    background-image: linear-gradient(
+      to right,
+      rgb(0, 114, 66) 0%,
+      rgb(4, 109, 91) 100%
+    );
+    color: white;
+    
+  }
+  
+  form {
+    padding: 40px;
+    background-color: white;
+  }
+  
+  hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 1px;
+    border: none;
+    background-color: rgb(0, 114, 66);
+  }
 
 
+/*.formDiv{
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-items: center;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding-bottom: 2%;
+}
+
+.duzen{
+    padding: 2%;
+    
+}
+
+*/
