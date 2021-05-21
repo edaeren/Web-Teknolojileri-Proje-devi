@@ -9,6 +9,8 @@ if(($_POST["kullanici"]==$user) && ($_POST["sifre"]==$pass)){
     $_SESSION["pass"]=$pass;
 
     echo("Siteye başarıyla giriş yaptınız. HOŞGELDİNİZ!");
+    header("Refresh: 1;url=index.html");
+    
 }else
 {
   echo "Kullanıcı adı veya şifre yanlış.Tekrar deneyin.";

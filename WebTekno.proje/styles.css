@@ -165,8 +165,8 @@ div.desc {
   margin-right: 2%;
   margin-top: 2%;
 }
-/**ILETISIM3***/
 
+/**ILETISIM3***/
 
 .baslik {
   padding-left: 2%;
@@ -248,264 +248,64 @@ input{
   border-radius: 5px;
 }
 
+/**ILGI ALANLARIM********************************************/
 
-
-/****ILETISIM2*****/
-
-/*
-* {
-  box-sizing: border-box;
+.ilgiBaslik{
+  background-color: rgb(121, 153, 67);
+  width: 80%;
+  margin-top: 3%;
+  margin-left: 11%;
+ /* margin-bottom: -1%;*/
+  text-align: center;
+  font-size: 9vh;
+  font-style: italic;
+  font-weight: bold;
+ 
 }
-
-.body2 {
-  background-color: #ce6a40;
-  font-family: sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-}
-
-.container {
-  background-color: #fff;
-  border-radius: 5px;
-  width: 40%;
-  max-width: 10%;
-}
-
-.header {
-  border-bottom: 1% solid #f0f0f0;
-  background-color: #f7f7f7;
-  padding: 2% 4%;
-}
-
-.header h2 {
-  margin: 0;
-}
-
-.form {
-  padding: 3% 4%;
-  background-color: white;
-}
-
-.form-control {
-  margin-bottom: 2%;
+.ilgiAlanlarimBack{
+  background-color: rgb(197, 233, 152);
+  width: 80%;
+  margin-left: 11%;
+  padding-top: 3%;
+  margin-top: -0.8%;
+  padding-left: 2%;
+  margin-bottom: 4%;
+  overflow: hidden;
   padding-bottom: 2%;
-  position: relative;
 }
 
-.form-control label {
-  display: inline-block;
-  /*yana gelmesini sağlar
-  margin-bottom: 3%;
-
+.result{
+  background-color: #fff;
+  float: left;
+  margin: 1%;
+  width: 30%;
+  height: 50vh;
+  text-align: center;
+}
+.result{
+  margin-left: 6%;
 }
 
-
-.form-control input {
-
-  border-radius: 4%;
-  border:2px solid#f0f0f0;
-  display: block;
-  font-size: 14px;
-  padding: 1%;
+.result img{
+  object-fit: cover;
+  height: 100%;
   width: 100%;
 }
 
-.form-control input:focus {
-  outline: none;
-  border-color: #777;
-}
-
-.form-control.success input{
-  border-color: #2ecc71;
-}
-
-.form-control.error input{
-  border-color: #e73c3c;
-}
-
-.form-control i{
-  visibility: hidden;
-  position: absolute; /*sağ tarafa sıralama
-  top: 4%;
-  right: 1%;
-}
-
-.form-control.success i.fa-check-circle{
-  color: #2ecc71;
-  visibility: visible;
-}
-
-.form-control.error i.fa-exclamation-circle{
-  color: #e74c3c;
-  visibility: visible;
-}
-
-.form-control small{
-  color: #e74c3c;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  visibility: hidden;
-}
-
-
-.form-control.error small{
-  visibility: visible;
-}
-
-
-.form button{
-  background-color: #d16334;
-  border: 2% solid #d6774e;
-  border-radius: 4%;
+.butonlar{
+  border-radius: 4px;
+  margin-left: 6%;
+  border: 0;
+  width: 30%;
+  padding:2%;
+  background-color: darksalmon;
   color: #fff;
-  display: block;
   font-size: 16px;
-  padding: 1%;
-  margin-top: 2%;
-  width: 100%;
-}*/
-
-/*******ILETISIM********
-
-.iletisimDiv {
-   
-    font-family: "Lato", sans-serif;
-    color: black;
-    margin-left: 22%;
-    margin-right: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 60%;
-    
-  }
-  
-  .contact-banner {
-     
-    background-image: linear-gradient(
-      to right,
-      rgb(0, 114, 66) 0%,
-      rgb(4, 109, 91) 100%
-    );
-    color: white;
-    padding: 40px;
-  }
-  
-  .invalid {
-    border: 1px solid red;
-  }
-  
-  .mb-2 {
-    margin-bottom: 20px;
-  }
-  
-  .mb-4 {
-    margin-bottom: 40px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  .contact-description {
-    margin-bottom: 40px;
-  }
-  
-  input {
-    padding: 10px;
-    border-radius: 5px;
-    width:100%;
-    border: 1px solid rgb(0, 114, 66);
-    font-size: 8%;
-    outline: none;
-    color: #333;
-    
-  }
-  
-  .form-control {
-    font-size: 20px;
-    margin-bottom: 10px;
-    background-color: green;
-  }
-  
-  .error {
-    color: red;
-    font-size: 14px;
-    margin-top: 6px;
-  }
-  
-  label {
-    display: block;
-    font-size: 95%;
-    margin-bottom: 2%;
-    
-  }
-  
-  .hide {
-    opacity: 0;
-  }
-  
-  textarea {
-    width: 55%;
-    border-radius: 5px;
-    outline: none;
-    padding: 10px;
-    height: 60%;
-    font-size: 10%;
-  }
-  
-  button {
-    color: black;
-    padding: 20px;
-    border: 1px solid rgb(0, 114, 66);
-    border-radius: 10px;
-    background: none;
-    cursor: pointer;
-    transition: all 0.5s;
-    color: rgb(0, 114, 66);
-  }
-  
-  button:hover {
-    background-image: linear-gradient(
-      to right,
-      rgb(0, 114, 66) 0%,
-      rgb(4, 109, 91) 100%
-    );
-    color: white;
-    
-  }
-  
-  form {
-    padding: 40px;
-    background-color: white;
-  }
-  
-  hr {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 1px;
-    border: none;
-    background-color: rgb(0, 114, 66);
-  }
-
-
-/*.formDiv{
-    background-color: white;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    justify-items: center;
-    width: 70%;
-    text-align: center;
-    margin-left: 15%;
-    padding-bottom: 2%;
 }
 
-.duzen{
-    padding: 2%;
-    
+button:active{
+  transform: scale(0.98); /*biraz içeri göçecek*/
 }
-
-*/
+button:focus{
+  outline: none;
+}

@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Anasayfa.html">Anasayfa</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Ozgecmis.html">Özgeçmiş</a>
@@ -80,6 +80,7 @@
 
     </div>
 
+   
    
 
 

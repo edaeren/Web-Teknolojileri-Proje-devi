@@ -43,7 +43,7 @@
                 </ul>
                 <ul class="navbar-nav navbar-right">
                     <li class="nav-item">
-                        <a class="nav-link" href="login.html"> Giriş Yap
+                        <a class="nav-link" href="login.php"> Giriş Yap
                         </a>
                     </li>
                 </ul>
@@ -53,11 +53,87 @@
     </nav>
     <!--NAVBAR BITTI-->
 
+    <!--İLGİ ALANLARIM BAŞLANGICI-->
+    <div>
+        <header class="ilgiBaslik">İlgi Alanlarım</header>
+        <div class="ilgiAlanlarimBack">
+            <section>
+                <h3>Resim</h3>
+                <p>İlgi alanlarımın ilkine resmi eklemek istedim.
+                    Çocukluğumdan beri resim yapmayı, resim derslerini sevmişimdir. Çocukken daha çok tuval üzerinde
+                    manzara resimleri ile uğraşırdım. Bir kez okulum sayesinde ebru sanatı ile uğraşma imkanım da
+                    olmuştu. Lise 9-10'da ise nesne çizimleri üzerinde yoğunlaşmıştım. 11 ve 12. sınıfta sınava çalışmak
+                    için resme ara versem de sınavdan sonra tekrar başlamaya karar verdim ve son bir iki senedir daha
+                    çok portre tarzında çizimler üzerinde kendimi geliştirmeye çalışıyorum.Başlarda karakalem ile
+                    çalışırken şimdi boyaları deniyorum. Fırsat buldukça da resim yapmaya çalışıyorum.
+                </p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a target="_blank" href="danBoya.jpeg"><img
+                        src="danBoya.jpeg"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank"
+                    href="danYan.jpeg"><img src="danYan.jpeg"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="danEl.jpeg"><img src="danEl.jpeg"></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="bardakBoya.jpeg"><img
+                        src="bardakBoya.jpeg"></a>
+            </section><br>
+            <section>
+                <h3>Müzik</h3>
+                <p>Ne kadar klasik olsa da müziği yazmadan geçmek istemedim. Gününün çoğunu müzikle geçiren biriyim.
+                    Resim yaparken, bir yere giderken hatta ders çalışırken bile müzik dinliyorum. En sevdiğim müzik
+                    grubu Bastille. Çoğu gruptan zaman içinde sıkılsam da Bastille'i yaklaşık 7 senedir dinliyorum.
+                    Aşağıda en sevdiğim albümlerinden birini bulacaksınız. </p>
+            </section><br><br>
+            <section>
+                <div class="results">
+                    <div id="cat_result" class="result">
+                        <p>Random Kedi Resmi</p>     
+                    </div>
+                    <div id="dog_result" class="result">
+                        <p>Random Köpek Resmi</p>
+                    </div>
+               
+                    <div class="buttons">
+                        <button class="butonlar" id="cat_btn">Random Kedi Çağır</button>
+                        <button class="butonlar" id="dog_btn">Random Köpek Çağır</button>
+                    </div>
+                </div>
+            </section>
+           
+        </div>
+
+    </div>
+
+    <script>
+        const cat_result=document.getElementById('cat_result');
+        const dog_result=document.getElementById('dog_result');
+        const cat_btn=document.getElementById('cat_btn');
+        const dog_btn=document.getElementById('dog_btn');
+
+        cat_btn.addEventListener('click',getRandomCat)
+        dog_btn.addEventListener('click',getRandomDog)
+
+            function getRandomCat(){
+                fetch('https://aws.random.cat/meow')
+                .then(res=>res.json())
+                .then(data=>{
+                    cat_result.innerHTML=`<img src="${data.file}"/>`
+                })
+            }
+
+            function getRandomDog(){
+                fetch('https://random.dog/woof.json')
+                .then(res=>res.json())
+                .then(data=>{
+                    dog_result.innerHTML=`<img src="${data.url}"/>`
+                })
+            }
+
+    </script>
+
+
 
     <!----js bootstrap------>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
-        crossorigin="anonymous"></script>
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

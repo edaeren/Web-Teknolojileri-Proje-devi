@@ -42,14 +42,14 @@ if(isset($_POST["email"])){
 }
 if(isset($_POST["cinsiyet1"])){
   
-    print("<table><tr><td>Cinsiyet</td><td>:</td><td>".$POST["cinsiyet1"]."</td></tr>");
+    print("<table><tr><td>Cinsiyet1</td><td>:</td><td>".$POST["cinsiyet1"]."</td></tr>");
 }
 
 if(isset($_POST["cinsiyet2"])){
   
     echo("<table>
     <tr>
-       <td>Cinsiyet</td>
+       <td>Cinsiyet2</td>
       <td>:</td>
       <td>".$_POST["cinsiyet2"]."</td>
     </tr>");
@@ -62,29 +62,49 @@ if(isset($_POST["sehir"])){
     <tr>
         <td>Sehir</td>
         <td>:</td>
-        <td>aaaaaa</td>
+        <td>".$_POST["sehir"]."</td>
     
-    ";
+    ";   
+}
+if(isset($_POST["alan1"])||isset($_POST["alan2"])||isset($_POST["alan3"])||isset($_POST["alan4"])||isset($_POST["alan5"])||isset($_POST["alan6"])||isset($_POST["alan7"])){
+  
+    echo "
+    <table>
+    <tr>
+        <td>İlgi Alanları</td>
+        <td>:</td>
+        <td>".$_POST["alan1"]."</td>
+        <td>".$_POST["alan2"]."".","." </td>
+        <td>".$_POST["alan3"]."".","." </td>
+        <td>".","." ".$_POST["alan4"]."</td>
+        <td>".","." ".$_POST["alan5"]."</td>
+        <td>".","." ".$_POST["alan6"]."</td>
+        <td>".","." ".$_POST["alan7"]."</td>
+
+    ";  
+}
+if(isset($_POST["message"])){
+  
+    echo "
+    <table>
+    <tr>
+        <td>Mesajınız</td>
+        <td>:</td>
+        <td>".$_POST["message"]."</td>
     
+    ";   
 }
 
-
-
-
-
-   /* echo"<table>";
-    echo"<tr>";
-    echo"    <td>Ad:</td>";
-    echo"    <td>:</td>";
-    echo"    <td>".$_POST["name"]."</td>";
-    echo"</tr>";*/
+if(isset($_POST["dosya"])){
+  
+    echo "
+    <table>
+    <tr>
+        <td>Bize Gönderdiğiniz Dosya</td>
+        <td>:</td>
+        <td>".$_POST["dosya"]."</td>
     
-
-    
-
-      /*$item=$_POST["name"];
-    echo("Ad :");
-    echo($item);*/
-
+    ";   
+}
 
 ?>
